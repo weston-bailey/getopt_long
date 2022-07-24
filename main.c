@@ -17,8 +17,8 @@ int main (int argc, char **argv)
 		printf("%d: %s\n", i, argv[i]);
 	}
 	// https://stackoverflow.com/questions/48981712/command-line-argument-of-%E2%88%92-when-making-standard-unix-programs-for-c
-	puts ("standard input is:\n");
-	printf("%s\n", stdin);
+	/* puts ("standard input is:\n"); */
+	/* printf("%s\n", stdin); */
 
 	while (1) {
 		static struct option long_options[] = {
